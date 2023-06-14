@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- MENÚ ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#"> Rodrigo</a>
+            </div>
+            <nav id = "nav">
+                <ul>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#sobremi">SOBRE MI</a></li>
+                    <li><a href="#estudios">ESTUDIOS</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id = "inicio" class = "inicio">
+        <div class = "contenido-banner">
+            <div class = "contenedor-img">
+                <img src="img/profile-pic.png" alt="Profile pic">
+            </div>
+            <h1>Alvaro Rodrigo Vargas García</h1>
+            <h2>Full-Stack Web Develloper - C# .NET</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/%C3%A1lvaro-rodrigo-vargas-garc%C3%ADa/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/rodrigovargarcia"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/rrodrigovargas_/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id = "sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Rodrigo Vargas.</span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto numquam vero ea voluptates quia aperiam natus cumque, tempore quibusdam recusandae facilis molestias non incidunt. Fuga excepturi impedit a praesentium cupiditate!</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                <h3>Datos Personales</h3>
+                    <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                11-07-1997
+                            </li>
+                            <li>
+                                <strong>Teléfono</strong>
+                                +54-3855-704708
+                            </li>
+                            <li>
+                                <strong>Mail</strong>
+                                <span>rodrigovargarcia@gmail.com</span>    
+                            </li>
+                        </ul>
+                </div>
+                        <!--intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-music"></i>
+                            <span>Música</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajes</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>Deportes</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book-bookmark"></i>
+                            <span>Libros</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <button>
+                    Descargar CV <i class="fa-solid fa-file-arrow-down"></i>
+                    <span class="overlay"></span>
+                </button>
+        </div>
+    </section>
+    <!-- SECCION ESTUDIOS -->
+    <section id="estudios" class="estudios">
+        <div class="contenido-seccion">
+            <h2>ESTUDIOS</h2>
+            <div class="galeria">
+                <div class="certificado">
+                    <img src="img/Certificado-C_-Nivel-1-Álvaro-Rodrigo-Vargas-García-_3_.png" alt="C# certified">
+                    <div class ="overlay">
+                        <h3>C# .Net</h3>
+                        <p>Nivel 1</p>
+                    </div>
+                </div>
+                <div class="certificado">
+                    <img src="img/63bec47c6a6b1d000ee73fad.png" alt="C# certified">
+                    <div class ="overlay">
+                        <h3>Python</h3>
+                        <p>Introductorio</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tu nombre">
+                    <input type="text" placeholder="Número Telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                </div>
+            </div>
+            <button>
+                Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+            <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/%C3%A1lvaro-rodrigo-vargas-garc%C3%ADa/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/rodrigovargarcia"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/rrodrigovargas_/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
